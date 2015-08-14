@@ -1,0 +1,54 @@
+
+
+<html style = "color: #B2CC80;">
+
+<head>
+    <title>welcome to doom </title>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class ="green">Welcome to doom</h1>
+            <form id="greeting-form" method="post" action="/score">
+                <div class="form-group">
+                    <label for="fullName">What's your name?</label>
+                    <input type="text" id="fullName"
+                           name="fullName" class="form-control" placeholder="Bob">
+
+                    <label for="email">What's your email?</label>
+                    <input type="email" id="email"
+                           name="email" class="form-control"
+                           placeholder="bob@email.com">
+
+                    <input type="hidden" id="score"
+                           name="score" value="0">
+
+                    <input type="hidden" id="set"
+                           name="set" value="0">
+                </div>
+                <button class="btn btn-default" type="submit">OK</button>
+            </form>
+        <div class="row" >
+
+                <div id="game"> </div>
+
+
+
+            </div>
+        </div>
+        <h2 class = "score">High Scores </h2>
+        <div class ="score" style = "font:20px Chiller">
+           <div  style = "text-align: center" id="scoreBoard">
+        </div>
+
+        </div>
+    </div>
+
+    <script src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+</body>
+</html>

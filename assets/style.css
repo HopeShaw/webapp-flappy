@@ -1,0 +1,61 @@
+h1 {
+
+    color: darkblue;
+    font-family: fantasy;
+    font-size: -webkit-xxx-large;
+    text-decoration: underline;
+    margin-top: 200;
+}
+.green{
+    color: #B2CC80;
+}
+.score{
+    color: #B2CC80;
+    margin: 3em !important;
+    padding: 20px  !important;
+    border-radius: 10px;
+    text-space: even;
+    text-align:center;
+    background-color:#421965;
+    list-style-type: none;
+}
+
+.play{
+    color: #B2CC80;
+    background-color:#421965 ;
+    margin: 0 5em 0.6em !important;
+    padding: 15px  !important;
+    /*display: inline-block;*/
+    border-radius: 10px;
+}
+#gamelink {
+    text-align: left;
+    border: dashed;
+
+}
+body {
+    color: #B2CC80;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    width: 100%;
+    background: url('background__2_old_castle_by_proenix-d5ds06s.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat-y: initial;
+}
+#greeting {
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: #fff;
+    width: 35opx;
+    height: 270px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    color: #B2CC80;
+}
